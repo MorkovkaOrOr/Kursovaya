@@ -1,0 +1,620 @@
+Nov 26, 2024 10:20:04 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 26, 2024 10:20:08 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Nov 26, 2024 10:20:08 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Nov 26, 2024 10:21:28 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 26, 2024 10:21:30 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 26, 2024 10:21:30 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 26, 2024 10:21:32 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Nov 26, 2024 10:21:32 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Nov 26, 2024 10:29:57 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:16:42 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:22:03 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:22:51 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:23:17 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:24:58 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:25:00 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:25:00 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:28:01 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:28:03 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:28:03 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:28:03 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:28:03 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:28:17 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:28:19 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:28:19 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:28:58 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:29:01 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:29:01 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:34:18 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:34:20 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:34:20 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:35:35 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:35:37 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:35:37 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:35:47 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:35:47 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:36:03 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 27, 2024 2:36:09 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:36:09 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:36:14 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Nov 27, 2024 2:36:14 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Nov 27, 2024 2:36:19 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 27, 2024 2:36:19 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 27, 2024 2:38:17 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: Starting to upload data for the tag: shelf
+Nov 27, 2024 2:38:17 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: The data download is complete.
+Nov 27, 2024 2:39:23 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Nov 27, 2024 2:39:23 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Nov 27, 2024 2:39:28 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: Starting to upload data for the tag: shelf
+Nov 27, 2024 2:39:28 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: The data download is complete.
+Nov 27, 2024 2:39:32 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:33 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:34 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:34 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:34 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:34 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:35 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:38 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:39 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:39 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:39 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:40 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:46 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:46 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:46 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:47 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:47 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:50 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:52 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:52 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:52 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:39:52 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:52 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:39:52 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:40:00 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:40:00 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:40:00 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:40:00 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 27, 2024 2:40:00 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 27, 2024 2:40:00 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 28, 2024 8:25:19 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 28, 2024 8:25:25 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 28, 2024 8:25:25 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 29, 2024 5:37:33 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 29, 2024 5:37:36 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: Starting to upload data for the tag: shelf
+Nov 29, 2024 5:37:36 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: The data download is complete.
+Nov 29, 2024 5:37:39 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Nov 29, 2024 5:37:39 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Nov 29, 2024 5:37:42 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 29, 2024 5:37:42 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 29, 2024 5:44:46 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 29, 2024 5:44:47 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 29, 2024 5:44:47 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 29, 2024 5:45:24 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 29, 2024 5:45:25 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 29, 2024 5:45:26 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 29, 2024 5:45:28 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 29, 2024 5:45:30 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Nov 29, 2024 5:47:56 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Nov 29, 2024 5:47:58 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Nov 29, 2024 5:47:58 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Nov 29, 2024 5:48:01 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Nov 29, 2024 5:48:03 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 04, 2024 11:11:23 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 04, 2024 11:11:26 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Dec 04, 2024 11:11:31 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 04, 2024 11:11:34 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Dec 04, 2024 11:11:34 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 06, 2024 1:55:00 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 06, 2024 1:55:10 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Dec 06, 2024 1:55:11 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 06, 2024 1:55:11 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 06, 2024 1:55:20 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 06, 2024 1:55:37 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 06, 2024 1:55:43 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 06, 2024 1:55:43 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 06, 2024 1:55:45 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 06, 2024 1:55:45 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 06, 2024 1:55:48 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Dec 06, 2024 1:55:49 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 06, 2024 1:55:49 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 06, 2024 1:55:56 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 09, 2024 12:55:48 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 09, 2024 12:55:58 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Dec 09, 2024 12:55:58 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Dec 09, 2024 8:39:18 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 09, 2024 8:39:21 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 09, 2024 8:39:21 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 09, 2024 9:06:10 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 09, 2024 9:06:11 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 09, 2024 9:06:11 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 09, 2024 9:06:17 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 09, 2024 9:06:17 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 09, 2024 9:06:21 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: Starting to upload data for the tag: shelf
+Dec 09, 2024 9:06:21 PM com.hibernate.Entitu loadDataFromXML_shelf
+INFO: The data download is complete.
+Dec 09, 2024 9:06:23 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 09, 2024 9:06:23 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 09, 2024 9:06:27 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 09, 2024 9:06:27 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 10, 2024 1:48:28 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 1:49:32 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 1:50:18 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 1:53:33 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 1:55:24 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 1:57:27 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 2:17:28 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 2:17:30 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 10, 2024 2:17:30 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 10, 2024 2:17:34 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 10, 2024 2:17:34 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 10, 2024 2:41:16 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 2:43:44 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 2:43:46 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 10, 2024 2:43:46 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 10, 2024 2:43:49 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 10, 2024 2:43:49 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 10, 2024 2:43:50 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Dec 10, 2024 2:43:50 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Dec 10, 2024 2:45:24 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 2:45:26 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Dec 10, 2024 2:45:26 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Dec 10, 2024 2:45:39 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: Starting to upload data for the tag: company
+Dec 10, 2024 2:45:39 PM com.hibernate.Entitu loadDataFromXM_company
+INFO: The data download is complete.
+Dec 10, 2024 2:58:28 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 2:58:58 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:00:09 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:02:17 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:02:55 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:04:23 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:05:16 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:06:03 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:06:41 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:08:11 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:09:32 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:11:03 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:13:01 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:17:16 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:19:51 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:23:18 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:24:48 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:25:00 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:26:52 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:28:05 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:29:57 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:34:26 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:34:33 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 10, 2024 3:34:33 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 10, 2024 3:36:13 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:37:53 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:39:02 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 10, 2024 3:39:18 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 10, 2024 3:39:18 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 11, 2024 12:27:09 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:31:55 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:32:33 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:33:11 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:36:23 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:36:25 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 11, 2024 12:36:25 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 11, 2024 12:36:46 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:36:47 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 11, 2024 12:36:47 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 11, 2024 12:40:41 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:40:43 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: Starting to upload data for the tag: contract
+Dec 11, 2024 12:40:43 PM com.hibernate.Entitu loadDataFromXM_contarct
+INFO: The data download is complete.
+Dec 11, 2024 12:41:14 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:41:38 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:42:05 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:44:00 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:45:04 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 12:46:01 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 1:09:15 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 3:48:39 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 3:51:20 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:13:41 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:13:49 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 11, 2024 5:13:49 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 11, 2024 5:13:56 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: Starting to upload data for the tag: object
+Dec 11, 2024 5:13:56 PM com.hibernate.Entitu loadDataFromXM_object
+INFO: The data download is complete.
+Dec 11, 2024 5:20:47 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:24:32 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:27:42 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:33:55 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:34:20 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:34:47 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:38:26 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 5:57:20 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 9:43:25 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 9:54:27 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 11, 2024 9:54:35 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 13, 2024 5:21:56 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 13, 2024 5:23:18 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 13, 2024 5:23:41 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Dec 13, 2024 5:23:47 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 13, 2024 6:38:58 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 13, 2024 6:49:09 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 13, 2024 7:01:03 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 13, 2024 7:02:15 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:14:17 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:16:18 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:19:40 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:20:31 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:21:29 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:21:59 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:22:27 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:24:06 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:34:58 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:36:34 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:37:28 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:38:06 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:40:32 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:41:33 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:42:39 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:43:43 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:49:11 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:51:57 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:53:19 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:54:59 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 12:59:11 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:01:11 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:04:49 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:05:52 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:09:23 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:11:22 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:16:36 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:27:02 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:28:38 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:30:21 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:31:06 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:36:52 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:37:35 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:38:45 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:40:32 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:42:59 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:44:03 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:44:43 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:54:13 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:54:25 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:55:53 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 1:59:37 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:02:52 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:03:02 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:04:30 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:05:41 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:07:02 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:08:00 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:09:12 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:16:32 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:16:57 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 2:59:33 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 3:09:53 AM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 7:47:09 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 7:57:54 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 7:57:58 PM com.hibernate.Entitu$1$1 doInBackground
+INFO: STARTING REPORT GENERATION...
+Dec 14, 2024 7:58:07 PM com.hibernate.Entitu$1$1 done
+INFO: Report generation complete.
+Dec 14, 2024 8:52:40 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 8:56:16 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:13:38 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:14:10 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:19:16 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:24:35 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:29:37 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:41:02 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:41:22 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 9:43:35 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.
+Dec 14, 2024 10:54:22 PM com.hibernate.Entitu setupLogger
+INFO: Logger setup complete.

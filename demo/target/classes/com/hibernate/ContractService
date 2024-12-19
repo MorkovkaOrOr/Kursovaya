@@ -1,0 +1,210 @@
+package com.hibernate;
+import java.awt.BorderLayout;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.PersistenceException;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+public class ComapnyService {
+
+    private static EntityManagerFactory emf = Persistence.createEntityManagerFactory("test_persistence");
+
+    public static void showJudgeTable() {
+        JFrame tableFrame = new JFrame("Comapny");
+        tableFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+
+        DefaultTableModel model = new DefaultTableModel();
+        JTable table = new JTable(model);
+
+        model.addColumn("ID");
+        model.addColumn("Company Name");
+        load(model);
+
+        JScrollPane scrollPane = new JScrollPane(table);
+        tableFrame.getContentPane().add(scrollPane, BorderLayout.CENTER);
+        tableFrame.setSize(400, 300);
+
+        // Create buttons for adding, editing, deleting, and searching
+        JButton addBtn = new JButton("Add");
+        JButton deleteBtn = new JButton("Delete");
+        JButton editBtn = new JButton("Edit");
+
+        addBtn.addActionListener(e -> add(model));
+        deleteBtn.addActionListener(e -> delete(model, table));
+        editBtn.addActionListener(e -> edit(model, table));
+        
+
+        JPanel controlPanel = new JPanel();
+        controlPanel.add(addBtn);
+        controlPanel.add(deleteBtn);
+        controlPanel.add(editBtn);
+
+        tableFrame.getContentPane().add(controlPanel, BorderLayout.SOUTH);
+        tableFrame.setVisible(true);
+    }
+    private static void load(DefaultTableModel model) {
+        EntityManager em = emf.createEntityManager();
+        em.getTransaction().begin();
+        
+        List<Company> grist = em.createQuery("SELECT f FROM Company f WHERE f.idcompany > 0", Company.class).getResultList();
+
+        // Очистка модели перед добавлением новых данных
+        model.setRowCount(0);
+        
+        if (grist.isEmpty()) {
+            System.out.println("NO ROWS IN TABLE");
+        } else {
+            for (Company jj : grist) {
+                // Добавление данных в модель таблицы
+                model.addRow(new Object[]{jj.getIdcompany(),jj.getCompanyName()});
+            }
+        }
+        
+        em.getTransaction().commit();
+        em.close();
+    }
+    private static void delete(DefaultTableModel model, JTable table) {
+        int selectedRow = table.getSelectedRow();
+        if (selectedRow != -1) {
+            EntityManager em = null;
+            try {
+                em = emf.createEntityManager();
+                em.getTransaction().begin();
+    
+                // Найти судью по ID
+                Company judge = em.find(Company.class, Integer.parseInt(model.getValueAt(selectedRow, 0).toString()));
+                System.err.println(Integer.parseInt(model.getValueAt(selectedRow, 0).toString()));
+                // Проверка на существование судьи
+                if (judge != null) {
+                    em.remove(judge);
+                    em.getTransaction().commit();
+                    model.removeRow(selectedRow);
+                    
+                } else {
+                    JOptionPane.showMessageDialog(null, "Company not found.", "Error", JOptionPane.ERROR_MESSAGE);
+                }
+            } catch (Exception e) {
+                // Откат транзакции в случае ошибки
+                if (em != null && em.getTransaction().isActive()) {
+                    em.getTransaction().rollback();
+                }
+                JOptionPane.showMessageDialog(null, "An error occurred while deleting the company: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                
+            } finally {
+                if (em != null) {
+                    em.close();
+                }
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "Select a row to delete.", "Selection Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+    private static void add(DefaultTableModel model) {
+        // Открываем соединение с базой данных
+        String name = JOptionPane.showInputDialog("Enter Name:");
+        if (name != null && !name.trim().isEmpty()) {
+            EntityManager em = null;
+            try {
+                em = emf.createEntityManager();
+                em.getTransaction().begin();
+                
+                // Создаём новый объект Shelf (поле shelfId будет автоматически заполняться базой данных)
+                Company newCompany = new Company();
+                newCompany.setCompanyName(name);
+                // Сохраняем объект в базу данных
+                em.persist(newCompany);
+                
+                // Получаем ID, который был присвоен этому объекту
+                Integer companyId = newCompany.getIdcompany();
+                
+                // Завершаем транзакцию
+                em.getTransaction().commit();
+                
+                // Закрываем EntityManager
+                em.close();
+                
+                // Добавляем строку в таблицу с полученным ID
+                model.addRow(new Object[]{companyId,newCompany.getCompanyName()});
+                
+            } catch (Exception e) {
+                // В случае ошибки откатываем транзакцию
+                if (em != null && em.getTransaction().isActive()) {
+                    em.getTransaction().rollback();
+                }
+                JOptionPane.showMessageDialog(null, "Произошла ошибка при добавлении полки: " + e.getMessage(), "Ошибка", JOptionPane.ERROR_MESSAGE);
+            } finally {
+                if (em != null) {
+                    em.close();
+                }
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "All fields must be filled.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+    private static void edit(DefaultTableModel model, JTable table) {
+        int selectedRow = table.getSelectedRow();
+        if (selectedRow != -1) {
+            String name = JOptionPane.showInputDialog("Enter new Name:", model.getValueAt(selectedRow, 1));
+    
+            if (name != null&& !name.trim().isEmpty()) {
+                EntityManager em = null;
+                try {
+                    em = emf.createEntityManager();
+                    em.getTransaction().begin();
+    
+                    // Найти существующего судью по старому ID
+                    Company judge = em.find(Company.class, Integer.parseInt(model.getValueAt(selectedRow, 0).toString()));
+                    
+                    // Проверка на существование судьи
+                    if (judge == null) {
+                        JOptionPane.showMessageDialog(null, "Judge not found.", "Error", JOptionPane.ERROR_MESSAGE);
+                        return;
+                    }
+    
+                    // Обновить данные судьи
+                    judge.setCompanyName(name);
+
+                    
+                    em.getTransaction().commit();
+                                    // Обновление данных в таблице
+                    model.setValueAt(name, selectedRow, 1);
+                
+
+            } catch (NumberFormatException e) {
+                JOptionPane.showMessageDialog(null, "ID must be a number.", "Input Error", JOptionPane.ERROR_MESSAGE);
+
+            } catch (PersistenceException e) {
+                // Обработка ошибок, связанных с транзакцией
+                if (em != null && em.getTransaction().isActive()) {
+                    em.getTransaction().rollback();
+                }
+                JOptionPane.showMessageDialog(null, "An error occurred while editing the judge: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+            } catch (Exception e) {
+                // Общая обработка исключений
+                if (em != null && em.getTransaction().isActive()) {
+                    em.getTransaction().rollback();
+                }
+                JOptionPane.showMessageDialog(null, "An unexpected error occurred: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                
+            } finally {
+                if (em != null) {
+                    em.close();
+                }
+            }
+        } else {
+            JOptionPane.showMessageDialog(null, "All fields must be filled.", "Input Error", JOptionPane.ERROR_MESSAGE);
+        }
+    } else {
+        JOptionPane.showMessageDialog(null, "Select a row to edit.", "Selection Error", JOptionPane.ERROR_MESSAGE);
+    }
+}
+}

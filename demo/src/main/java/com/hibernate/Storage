@@ -1,0 +1,261 @@
+package com.hibernate;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.util.Date;
+import java.util.List;
+
+public class Storage {
+    
+    private List<Company> list_of_companies;
+    private List<Shelf> list_of_shelves;
+    private List<Cargo> list_of_cargos;
+
+    public Storage() {
+        this.list_of_companies = new java.util.ArrayList<>();
+        this.list_of_shelves = new java.util.ArrayList<>();
+        this.list_of_cargos = new java.util.ArrayList<>();
+    }
+
+    public List<Company> getCompanies() {
+
+        return list_of_companies;
+    }
+
+    public void addCompany(Company company) {
+
+        list_of_companies.add(company);
+    }
+
+    public void setCompany(Company company) {
+
+        int index = list_of_companies.indexOf(company);
+        if (index != -1) {
+            list_of_companies.set(index, company);
+        } else {
+            System.out.println("Company not found");
+        }
+    }
+
+    public void removeCompany(Company company) {
+
+        list_of_companies.remove(company);
+    }
+
+    public double occupancy() {
+
+        // Implement occupancy calculation logic here
+        return 0.5; // Placeholder value
+    }
+
+    public int amount(String cargoType) {
+
+        // Implement cargo amount retrieval logic here
+        return 10; // Placeholder value
+    }
+
+    public List<Shelf> getShelves() {
+
+        return list_of_shelves;
+    }
+
+    public void addShelf(Shelf company) {
+
+        list_of_shelves.add(company);
+    }
+
+    public void setShelf(Shelf company) {
+
+        int index = list_of_shelves.indexOf(company);
+        if (index != -1) {
+            list_of_shelves.set(index, company);
+        } else {
+            System.out.println("Company not found");
+        }
+    }
+
+    public void removeShelf(Shelf company) {
+        System.out.println("Removing company: " + company.getShelfId());
+        list_of_shelves.remove(company);
+    }
+    public List<Cargo> getObject() {
+
+        return list_of_cargos;
+    }
+
+    public void addObject(Cargo company) {
+
+        list_of_cargos.add(company);
+    }
+
+    public void setObject(Cargo company) {
+
+        int index = list_of_cargos.indexOf(company);
+        if (index != -1) {
+            list_of_cargos.set(index, company);
+        } else {
+            System.out.println("Cargo not found");
+        }
+    }
+
+    public void removeObject(Cargo company) {
+
+        list_of_cargos.remove(company);
+    }
+
+}
+@Entity
+@Table(name = "company")
+class Company {
+    private String companyName;
+    private int idcompany;
+
+    public Company(String name, int idcompany=-1) {
+        this.companyName = name;
+        this.idcompany = idcompany;
+    }
+
+    @Id
+    @Column(name = "idcompany")
+    @GeneratedValue(strategy=  GenerationType.IDENTITY)
+    public int getidcompany(){
+        return idcompany;
+    }
+    public void setidcompany(int idcompany){
+        this.idcompany=idcompany;
+    }
+
+    @Column(name = "company_name")
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    public void setCompanyName(String name) {
+        this.companyName = name;
+    }
+}
+
+@Table(name = "shelf")
+class Shelf {
+    private String shelfId;
+
+    public Shelf(String id) {
+        this.shelfId = id;
+    }
+    @Id
+    @Column(name = "idshelf")
+    @GeneratedValue(strategy=  GenerationType.IDENTITY)
+    public String getShelfId() {
+        return shelfId;
+    }
+
+    public void setShelfId(String id) {
+        this.shelfId = id;
+    }
+}
+
+@Table(name = "object")
+class Cargo {
+    private String objectName;
+    private Contract contract;
+    private Shelf shelf;
+    private int idobject;
+
+    public Cargo(String name,Shelf shelf,Contract contract, int idobject=-1) {
+        this.objectName = name;
+        this.contract = contract;
+        this.shelf = shelf;
+        this.idobject = idobject;
+    }
+    @Id
+    @Column(name = "idobject")
+    @GeneratedValue(strategy=  GenerationType.IDENTITY)
+    public String getIdObject() {
+        return idobject;
+    }
+
+    public void setIdObject(String idobject) {
+        this.idobject = idobject;
+    }
+
+    @Column(name = "objectname")
+    public String getObjectName() {
+        return objectName;
+    }
+
+    public void setObjectName(String name) {
+        this.objectName = name;
+    }
+
+    @Column(name = "idshelf")
+    public Shelf getShelf() {
+
+        return shelf;
+    }
+
+    public void setShelf(Shelf shelf) {
+
+        this.shelf = shelf;
+    }
+
+    @Column(name = "idcontract")
+    public Contract getContract() {
+
+        return contract;
+    }
+
+    public void setContract(Contract contract) {
+
+        this.contract = contract;
+    }
+}
+
+@Table(name = "contract")
+class Contract {
+    private String contractId;
+    private Date contractEnd;
+    private Company company;
+
+    public Contract(String id, Date end, Company company) {
+        this.contractId = id;
+        this.contractEnd = end;
+        this.company = company;
+    }
+
+    @Id
+    @Column(name = "idobject")
+    @GeneratedValue(strategy=  GenerationType.IDENTITY)
+    public String getContractId() {
+        return contractId;
+    }
+
+    public void setContractId(String id) {
+        this.contractId = id;
+    }
+    @Column(name = "contract_end")
+    public Date getContractDate() {
+
+        return contractEnd;
+    }
+
+    public void setContractDate(Date end) {
+
+        this.contractEnd = end;
+    }
+
+    @Column(name = "idcompany")
+    public void setCompany(Company company)
+    {
+        this.company = company;
+    }
+
+    public Company getCompany() {
+
+        return company;
+    }
+}
+
